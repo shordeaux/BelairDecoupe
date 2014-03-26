@@ -9,72 +9,73 @@
     <script src="js/jquery.backstretch.js"></script>
 </head>
 <body>
-<div class="leftcontainer">
-    <div class="menu-bg"></div>
-</div>
-<div class="midcontainer">
-    <!-- Row header -->
-    <div class="row">
-        <div class="col-xs-4 col-md-4">
-            <div id="header"><img src="img/belair_house_logo.jpg"></div>
-        </div>
-        <div class="col-xs-4 col-md-4"></div>
+    <div class="leftcontainer">
+        <div class="menu-bg"></div>
     </div>
-
-    <!-- Row menu -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-xs-12 col-md-12 menu-container">
-                    <ul id="menu">
-                        <li class="active"><a href="index.html">ACCUEIL</a></li>
-                        <li><a href="mission.html">MISSION</a></li>
-                        <li>VALEURS</li>
-                        <li>ENVIRONNEMENT</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </div>
+    <div class="midcontainer">
+        <!-- Row header -->
+        <div class="row">
+            <div class="col-xs-4 col-md-4">
+                <div id="header"><img src="img/belair_house_logo.jpg"></div>
+            </div>
+            <div class="col-xs-8 col-md-8">
+                <span class="langselector"><a href="#" class="active">FR</a>  |  <a href="#">EN</a></span>
             </div>
         </div>
 
-    </div>
+        <!-- Row menu -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 menu-container">
+                        <ul id="menu">
+                            <li class="active"><a href="index.html">ACCUEIL</a></li>
+                            <li><a href="mission.html">MISSION</a></li>
+                            <li><a href="valeurs.html">VALEURS</a></li>
+                            <li><a href="environnement.html">ENVIRONNEMENT</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Row body -->
-    <div class="row">
-        <div class="col-xs-11 col-md-11">
-            <article>
-                <h1>Vocation</h1>
-					<span class="txtintro">
-						Répondre aux préoccupations quotidiennes des familles et les accompagner dans le développement de leur patrimoine à long terme.
-					</span>
-
-                <p>Belair House offre le meilleur de deux mondes, celui du family office et de l’investment office . Belair House propose ainsi une offre intégrée et globale, permettant d’accompagner les familles fortunées sur tous les sujets qui peuvent les préoccuper.</p>
-
-                <p>Nos experts agissent à leurs côtés, afin de définir et mettre en oeuvre les stratégies adaptées à leurs besoins et préoccupations : préserver, développer, transmettre leur patrimoine, tout en simplifiant sa gestion courante.</p>
-
-                <p>Le Family Officer est l’interlocuteur privilégié de la famille. Il organise et coordonne les missions de chaque spécialiste.</p>
-            </article>
         </div>
-        <div class="col-md-1 menu-end corner"></div>
-    </div>
-</div>
 
-<div class="rightcontainerX">
-    <div style="margin-top:186px;">
-    </div>
+        <!-- Row body -->
+        <div class="row">
+            <div class="col-xs-11 col-md-11">
+                <article>
+                    <h1>Vocation</h1>
+                    <span class="txtintro">
+                      Répondre aux préoccupations quotidiennes des familles et les accompagner dans le développement de leur patrimoine à long terme.
+                  </span>
 
-</div>
+                  <p>Belair House offre le meilleur de deux mondes, celui du family office et de l’investment office . Belair House propose ainsi une offre intégrée et globale, permettant d’accompagner les familles fortunées sur tous les sujets qui peuvent les préoccuper.</p>
 
-<script>
-    $(function () {
-        $.backstretch([
-            "images/bg1.jpg",
-            "img/bgmission.jpg",
-            "img/bg4.jpg",
-            "img/bg5.jpg",
-            "img/bg6.jpg"
-        ]);
-    })
-</script>
+                  <p>Nos experts agissent à leurs côtés, afin de définir et mettre en oeuvre les stratégies adaptées à leurs besoins et préoccupations : préserver, développer, transmettre leur patrimoine, tout en simplifiant sa gestion courante.</p>
+
+                  <p>Le Family Officer est l’interlocuteur privilégié de la famille. Il organise et coordonne les missions de chaque spécialiste.</p>
+              </article>
+          </div>
+          <div class="col-md-1 menu-end corner"></div>
+      </div>
+  </div>
+
+  <div class="rightcontainerX"></div>
+
+  <script>
+  $(function () {
+    $.backstretch([
+        "img/bgaccueil.jpg",
+        "img/bgmission.jpg",
+        "img/bgvaleurs.jpg",
+        "img/bgenvironnement.jpg",
+        "img/bgcontact.jpg"
+    ], {
+        centeredX: false,
+        centeredY: false
+    });
+});
+  </script>
 </body>
 </html>
